@@ -3,29 +3,38 @@
    border: 0%;
    margin: 0%;
    padding: 0%;
-    }
+}
   
-body{background-color:blueviolet;
-      color: black;
-      text-align: center;
-      font-size: larger;
-}
-header {
+  body{
+    background-color: white;
+
+  }
+  header {
     padding: 32px;
-    border-bottom: 1px solid #333;
+    border-bottom: 3px solid black;
     background-color: darkred;
-}
-header div {
     text-align: center;
-}
-header div a {
-     
-
-
-}
-
-    header div a:hover{
-    color: #000;
+    
+  }
+  header div a {
+    color: black;
+    font-size: larger;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
     font-family:"Kode Mono", monospace;
+  }
+header div a:hover{
+    color: #000;
+    transition: color 700ms;
+}
+#box{
+   text-align: center;
+   padding: 32px;
+}
 
-    }
+#box img{
+   border-radius: 100%;
+   border: 5px solid darkred;
+   margin-bottom: 32px;
+}
