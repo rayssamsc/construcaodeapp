@@ -5,9 +5,10 @@
    padding: 0%;
 }
   
-  body{
+  body {
     background-color: white;
-
+    text-align: center;
+    font-family:"Kode Mono", monospace;
   }
   header {
     padding: 32px;
@@ -18,14 +19,14 @@
   }
   header div a {
     color: black;
-    font-size: larger;
+    font-size: 30px;
     line-height: 30px;
     margin: 0 16px;
     text-decoration: none;
     font-family:"Kode Mono", monospace;
   }
 header div a:hover{
-    color: #000;
+    color: whitesmoke;
     transition: color 700ms;
 }
 #box{
@@ -37,4 +38,12 @@ header div a:hover{
    border-radius: 100%;
    border: 5px solid darkred;
    margin-bottom: 32px;
+}
+#linkstaylor a{
+  color: black;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0 16px;
+  text-decoration: none;
+  font-family:"Kode Mono", monospace;
 }
